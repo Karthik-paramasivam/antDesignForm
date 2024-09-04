@@ -1509,7 +1509,7 @@ export default function FormValidation() {
         form={form} // Attach the form instance
         name="basic"
         layout="vertical"
-        style={{ maxWidth: "500px", }}
+        style={{ maxWidth: "500px",margin:"0 auto" }}
         onFinish={onFinish} // Handle form submission
       >
         <Form.Item
